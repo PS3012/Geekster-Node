@@ -2,12 +2,7 @@
 
 Welcome to the **Random Jokes Server**, where you can get a random joke served dynamically to your browser! 🎉 This server fetches jokes using the [API Ninjas Jokes API](https://api-ninjas.com/api/jokes).
 
-## **Repository URL**
-
-Clone this repository to your local system using the following command:
-
-```bash
-git clone https://github.com/PS3012/Geekster-Node.git
+---
 
 ### **Getting Started**
 Follow these steps to set up the server on your local machine.
@@ -38,7 +33,6 @@ Ensure you have the following installed:
 
      ```bash
      npm install
-
 
 ---
 
@@ -100,4 +94,4 @@ random-jokes-server/
 
 - [API Ninjas](https://api-ninjas.com/) for providing the jokes API.
 - [Express.js](https://expressjs.com/) for the web framework.
-- [Node.js](https://nodejs.org/) for the server runtime.
+- [Node.js](https://nodejs.org/) for the server runtime.
