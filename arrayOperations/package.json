@@ -1,0 +1,17 @@
+{
+  "name": "utility-functions-library",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "keywords": [
+    "HCF",
+    "utilities",
+    "duplicates",
+    "utility-functions-library"
+  ],
+  "author": "Piyush Sahu",
+  "license": "ISC",
+  "description": "A utility library for HCF calculation, removing duplicates, and more."
+}
