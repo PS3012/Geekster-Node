@@ -1,0 +1,16 @@
+{
+  "name": "binary-search-js-util",
+  "version": "1.0.0",
+  "description": "A simple implementation of the binary search algorithm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "Binary",
+    "Search",
+    "Algorithm"
+  ],
+  "author": "Piyush Sahu",
+  "license": "ISC"
+}
