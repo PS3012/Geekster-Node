@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Image</title>
+    <style>
+      .container {
+        max-width: 500px;
+        margin: 20px auto;
+      }
+      .head {
+        text-align: center;
+        font-weight: 600;
+        font-size: 25px;
+        margin-bottom: 20px;
+        font-family: math, "sans-serif";
+      }
+
+      .image {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head"><%= image.alt_description %></div>
+      <img
+        src="<%= image.urls.full %>"
+        alt="<%= image.alt_description %>"
+        class="image"
+      />
+    </div>
+  </body>
+</html>
