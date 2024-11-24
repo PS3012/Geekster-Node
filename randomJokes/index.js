@@ -5,6 +5,9 @@ const path = require("path");
 const app = express();
 const PORT_NUMBER = 8000;
 
+require("dotenv").config();
+const NINJA_API_KEY = process.env.NINJA_API_KEY;
+
 app.set("view engine", "ejs");
 app.set("views", path.resolve("./views"));
 
@@ -13,7 +16,7 @@ app.use(express.urlencoded({ extended: false }));
 const fetchRandomJoke = async () => {
   try {
     const { data } = await axios.get("https://api.api-ninjas.com/v1/jokes", {
-      headers: { "X-Api-Key": "rjSpuUjOl2MbA9O44ThqqA==QXfr8tBR2bA80nyp" },
+      headers: { "X-Api-Key": NINJA_API_KEY },
     });
     return data[0]?.joke;
   } catch (err) {
