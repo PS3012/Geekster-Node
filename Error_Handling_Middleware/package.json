@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "name": "error_handling_middleware",
+  "version": "1.0.0",
+  "description": "Error Handling Middleware",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Piyush Sahu",
+  "license": "ISC"
+}
